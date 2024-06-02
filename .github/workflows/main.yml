@@ -25,6 +25,7 @@ jobs:
          aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
          aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
          application_name: 'nodejs-app'
-         environment_name: 'nodejs-app-env'
+         environment_name: 'Nodejs-app-env'
+         environment: 'nodejs-app-env'
          region: eu-north-1a
          deployment_package: nodejs-app-build.zip
